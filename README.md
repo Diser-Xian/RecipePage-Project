@@ -12,7 +12,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
@@ -31,7 +30,7 @@ The implementation follows a mobile-first approach and ensures the layout adapts
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/profile/Diser-Xian](https://www.frontendmentor.io/profile/Diser-Xian)
-- Live Site URL: [https://diser-xian.github.io/RecipePage-Project/](https://diser-xian.github.io/RecipePage-Project/m)
+- Live Site URL: [https://diser-xian.github.io/RecipePage-Project/](https://diser-xian.github.io/RecipePage-Project/)
 
 ## My process
 - I started by structuring the HTML using semantic elements to organize the content clearly. Sections like the recipe description, preparation time, ingredients, instructions, and nutrition were separated for better readability and maintainability.
