@@ -1,102 +1,90 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Recipe page solution
 
-![Design preview for the Recipe page coding challenge](./preview.jpg)
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+This project is a solution to the Frontend Mentor Recipe Page challenge. The goal was to build a clean, responsive recipe layout based on a provided design.
 
-## The challenge
+The page focuses on presenting structured content such as ingredients, instructions, and nutritional information using semantic HTML. Special attention was given to layout consistency, spacing, and typography to closely match the design.
 
-Your challenge is to build out this recipe page and get it looking as close to the design as possible.
+The implementation follows a mobile-first approach and ensures the layout adapts properly across different screen sizes.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Screenshot
 
-### Want some support on the challenge? 
+![](./assets\images\myrecipePage_prev.png)
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Links
 
-## Where to find everything
+- Solution URL: [https://www.frontendmentor.io/profile/Diser-Xian](https://www.frontendmentor.io/profile/Diser-Xian)
+- Live Site URL: [https://diser-xian.github.io/RecipePage-Project/](https://diser-xian.github.io/RecipePage-Project/m)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+## My process
+- I started by structuring the HTML using semantic elements to organize the content clearly. Sections like the recipe description, preparation time, ingredients, instructions, and nutrition were separated for better readability and maintainability.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- Next, I applied base styles and CSS variables for colors, spacing, and typography. I followed a mobile-first approach, styling for smaller screens first and then adjusting for larger viewports.
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- I then focused on layout and alignment using Flexbox and basic CSS techniques to match the design. Tables were used for structured data like nutrition, ensuring proper semantics and accessibility.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+- During development, I tested frequently and fixed issues related to spacing, list alignment, and inconsistent rendering (such as `<hr>` behavior across zoom levels).
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+- Finally, I refined the UI by improving spacing, typography, and overall visual consistency.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### Built with 
+- Semantic HTML5 markup
+- CSS custom properties (variables)
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Responsive design principles
 
-## Using AI coding assistants
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+### What I learned
+During this project, I improved my understanding of semantic HTML and how proper structure improves readability and accessibility. Using elements like `<section>`, `<article>`, and `<table>` helped organize the content more clearly instead of relying on generic `<div>` elements.
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+I also learned how to control layout and spacing using CSS, especially with lists, tables, and horizontal rules. One key issue I encountered was inconsistent rendering of `<hr>` when zooming, which I solved by switching from height-based styling to border-based styling for better stability.
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+Another important takeaway was using CSS custom properties (`:root`) to manage colors and spacing, making the design easier to maintain and update.
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+Overall, I gained better control over styling details such as spacing, alignment, and responsiveness using a mobile-first approach.
 
-## Building your project
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### Continued development
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+In future projects, I want to focus more on improving responsive design, especially making layouts adapt better across different screen sizes without breaking structure.
 
-## Deploying your project
+I also plan to deepen my understanding of accessibility, particularly using ARIA roles and improving keyboard navigation.
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+Another area I want to improve is writing cleaner and more scalable CSS, including better use of naming conventions and layout systems like CSS Grid for more complex designs.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+Lastly, I want to refine my debugging skills to identify layout and rendering issues faster.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+### AI Collaboration
 
-## Create a custom `README.md`
+I used AI tools such as ChatGPT to assist with debugging CSS issues, understanding semantic HTML structure, and improving styling techniques.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+AI was particularly helpful in identifying problems with CSS behavior, such as incorrect selectors, invalid properties, and layout inconsistencies. It also helped clarify best practices for structuring tables, handling spacing, and using modern CSS features like custom properties.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+What worked well was using AI for quick problem-solving and explanations of concepts I didn’t fully understand. However, I made sure to test and validate all suggestions to ensure they worked correctly in my project.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+Overall, AI acted as a support tool to speed up learning and debugging, rather than replacing the development process.
 
-## Submitting your solution
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+## Author
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- Github - [Diser-Xian Github](https://github.com/Diser-Xian/RecipePage-Project)
+- Frontend Mentor - [@XDEV](https://www.frontendmentor.io/profile/yourusername)
