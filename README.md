@@ -26,7 +26,7 @@ The implementation follows a mobile-first approach and ensures the layout adapts
 
 ### Screenshot
 
-![](./assets\images\myrecipePage_prev.png)
+![](./assets/images/myrecipePage_prev.png)
 
 ### Links
 
